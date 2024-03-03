@@ -1,0 +1,16 @@
+# .gitignore
+
+# Ignore virtual environment
+myenv/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore environment variable file
+.env
+
+# Ignore local development settings
+.env.local
+
+# Ignore Streamlit cache and logs
+.streamlit/
