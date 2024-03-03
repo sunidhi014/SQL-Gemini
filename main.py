@@ -1,8 +1,10 @@
 import streamlit as st
 import sqlite3
+import os
 import google.generativeai as genai
 
 ## Configure Genai Key
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 ## Function To Load Google Gemini Model and provide queries as response
